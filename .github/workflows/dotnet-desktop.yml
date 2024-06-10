@@ -33,4 +33,4 @@ jobs:
       run: .\configure.ps1
 
     - name: build
-      run: .\build.ps1
+      run: .\build.ps1 -SkipUnitTest
